@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="cris0123.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="cris0123.github.io/" rel="alternate" type="text/html" /><updated>2024-05-09T08:47:43+00:00</updated><id>cris0123.github.io/feed.xml</id><title type="html">The Website of Qinghua</title><subtitle>This is my personal website to showcase my work and share my knowledge.</subtitle><entry><title type="html">Bootsrap_table</title><link href="cris0123.github.io/2024/05/09/bootsrap_table.html" rel="alternate" type="text/html" title="Bootsrap_table" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/bootsrap_table</id><content type="html" xml:base="cris0123.github.io/2024/05/09/bootsrap_table.html"><![CDATA[<div class="table-responsive">
+  <table class="table">
+    <caption>响应式表格布局</caption>
+    <thead>
+      <tr>
+        <th>产品</th>
+        <th>付款日期</th>
+        <th>状态</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>产品1</td>
+        <td>23/11/2013</td>
+        <td>待发货</td></tr>
+      <tr>
+        <td>产品2</td>
+        <td>10/11/2013</td>
+        <td>发货中</td></tr>
+      <tr>
+        <td>产品3</td>
+        <td>20/10/2013</td>
+        <td>待确认</td></tr>
+      <tr>
+        <td>产品4</td>
+        <td>20/10/2013</td>
+        <td>已退货</td></tr>
+    </tbody>
+  </table>
+</div>]]></content><author><name>cris</name></author><summary type="html"><![CDATA[响应式表格布局 产品 付款日期 状态 产品1 23/11/2013 待发货 产品2 10/11/2013 发货中 产品3 20/10/2013 待确认 产品4 20/10/2013 已退货]]></summary></entry><entry><title type="html">Bootstrap Mycarousel</title><link href="cris0123.github.io/2024/05/09/bootstrap-myCarousel.html" rel="alternate" type="text/html" title="Bootstrap Mycarousel" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/bootstrap-myCarousel</id><content type="html" xml:base="cris0123.github.io/2024/05/09/bootstrap-myCarousel.html"><![CDATA[<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="../assets/img/bg_img004.jpg" alt="First slide" />
+        </div>
+        <div class="item">
+            <img src="../assets/img/bg_img005.jpg" alt="Second slide" />
+        </div>
+        <div class="item">
+            <img src="../assets/img/bg_img006.jpg" alt="Third slide" />
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    <!-- 控制按钮 -->
+    <div style="text-align:center;">
+        <input type="button" class="btn start-slide" value="Start" />
+        <input type="button" class="btn pause-slide" value="Pause" />
+        <input type="button" class="btn prev-slide" value="Previous Slide" />
+        <input type="button" class="btn next-slide" value="Next Slide" />
+        <input type="button" class="btn slide-one" value="Slide 1" />
+        <input type="button" class="btn slide-two" value="Slide 2" />            
+        <input type="button" class="btn slide-three" value="Slide 3" />
+    </div>
+</div>
+<script>
+$(function(){
+        // 初始化轮播
+        $(".start-slide").click(function(){
+            $("#myCarousel").carousel('cycle');
+        });
+        // 停止轮播
+        $(".pause-slide").click(function(){
+            $("#myCarousel").carousel('pause');
+        });
+        // 循环轮播到上一个项目
+        $(".prev-slide").click(function(){
+            $("#myCarousel").carousel('prev');
+        });
+        // 循环轮播到下一个项目
+        $(".next-slide").click(function(){
+            $("#myCarousel").carousel('next');
+        });
+        // 循环轮播到某个特定的帧 
+        $(".slide-one").click(function(){
+            $("#myCarousel").carousel(0);
+        });
+        $(".slide-two").click(function(){
+            $("#myCarousel").carousel(1);
+        });
+        $(".slide-three").click(function(){
+            $("#myCarousel").carousel(2);
+        });
+    });
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[Previous Next]]></summary></entry><entry><title type="html">Bootstrap</title><link href="cris0123.github.io/2024/05/09/bootstrap.html" rel="alternate" type="text/html" title="Bootstrap" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/bootstrap</id><content type="html" xml:base="cris0123.github.io/2024/05/09/bootstrap.html"><![CDATA[<div class="container">
+  <div class="jumbotron">
+    <h1>我的第一个 Bootstrap 页面</h1>
+    <p>重置窗口大小，查看响应式效果！</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+  </div>
+</div>]]></content><author><name>cris</name></author><summary type="html"><![CDATA[我的第一个 Bootstrap 页面 重置窗口大小，查看响应式效果！ Column 1 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！ Column 2 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！ Column 3 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！]]></summary></entry><entry><title type="html">Bootstrap_btn</title><link href="cris0123.github.io/2024/05/09/bootstrap_btn.html" rel="alternate" type="text/html" title="Bootstrap_btn" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/bootstrap_btn</id><content type="html" xml:base="cris0123.github.io/2024/05/09/bootstrap_btn.html"><![CDATA[<p><a class="btn btn-default" href="#" role="button">链接</a>
+<button class="btn btn-default" type="submit">按钮</button>
+<input class="btn btn-default" type="button" value="输入" />
+<input class="btn btn-default" type="submit" value="提交" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[链接 按钮]]></summary></entry><entry><title type="html">Bootstrap_list</title><link href="cris0123.github.io/2024/05/09/bootstrap_list.html" rel="alternate" type="text/html" title="Bootstrap_list" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/bootstrap_list</id><content type="html" xml:base="cris0123.github.io/2024/05/09/bootstrap_list.html"><![CDATA[<div class="list-group">
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">
+            入门网站包
+        </h4>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            免费域名注册
+        </h4>
+        <p class="list-group-item-text">
+            您将通过网页进行免费域名注册。
+        </p>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            24*7 支持
+        </h4>
+        <p class="list-group-item-text">
+            我们提供 24*7 支持。
+        </p>
+    </a>
+</div>
+<div class="list-group">
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">
+            商务网站包
+        </h4>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            免费域名注册
+        </h4>
+        <p class="list-group-item-text">
+            您将通过网页进行免费域名注册。
+        </p>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">24*7 支持</h4>
+        <p class="list-group-item-text">我们提供 24*7 支持。</p>
+    </a>
+</div>]]></content><author><name>cris</name></author><summary type="html"><![CDATA[入门网站包 免费域名注册 您将通过网页进行免费域名注册。 24*7 支持 我们提供 24*7 支持。 商务网站包 免费域名注册 您将通过网页进行免费域名注册。 24*7 支持 我们提供 24*7 支持。]]></summary></entry><entry><title type="html">Bootstrap_media</title><link href="cris0123.github.io/2024/05/09/bootstrap_media.html" rel="alternate" type="text/html" title="Bootstrap_media" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/bootstrap_media</id><content type="html" xml:base="cris0123.github.io/2024/05/09/bootstrap_media.html"><![CDATA[<div class="media">
+  <div class="media-left">
+    <img src="https://static.jyshare.com/images/mix/img_avatar.png" class="media-object" style="width:45px" />
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">RUNOOB-1 <small><i>Posted on February 19, 2016</i></small></h4>
+    <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+    
+    <!-- 内嵌多媒体对象 -->
+    <div class="media">
+      <div class="media-left">
+        <img src="https://static.jyshare.com/images/mix/img_avatar.png" class="media-object" style="width:45px" />
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">RUNOOB-2 <small><i>Posted on February 20, 2016</i></small></h4>
+        <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+ 
+        <!-- 内嵌多媒体对象 -->
+        <div class="media">
+          <div class="media-left">
+            <img src="https://static.jyshare.com/images/mix/img_avatar.png" class="media-object" style="width:45px" />
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">RUNOOB-3 <small><i>Posted on February 21, 2016</i></small></h4>
+            <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+          </div>
+        </div>
+        
+      </div>
+      
+      <!-- 内嵌多媒体对象 -->
+      <div class="media">
+        <div class="media-left">
+          <img src="https://static.jyshare.com/images/mix/img_avatar.png" class="media-object" style="width:45px" />
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">RUNOOB-4 <small><i>Posted on February 20, 2016</i></small></h4>
+          <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- 内嵌多媒体对象 -->    
+  <div class="media">
+    <div class="media-left">
+      <img src="https://static.jyshare.com/images/mix/img_avatar.png" class="media-object" style="width:45px" />
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">RUNOOB-5 <small><i>Posted on February 19, 2016</i></small></h4>
+      <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+    </div>
+  </div>
+</div>]]></content><author><name>cris</name></author><summary type="html"><![CDATA[RUNOOB-1 Posted on February 19, 2016 这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。 RUNOOB-2 Posted on February 20, 2016 这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。 RUNOOB-3 Posted on February 21, 2016 这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。 RUNOOB-4 Posted on February 20, 2016 这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。 RUNOOB-5 Posted on February 19, 2016 这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。]]></summary></entry><entry><title type="html">Bootstrap_table2</title><link href="cris0123.github.io/2024/05/09/bootstrap_table2.html" rel="alternate" type="text/html" title="Bootstrap_table2" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/bootstrap_table2</id><content type="html" xml:base="cris0123.github.io/2024/05/09/bootstrap_table2.html"><![CDATA[<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="firstname" class="col-sm-2 control-label">名字</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="firstname" placeholder="请输入名字" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="lastname" class="col-sm-2 control-label">姓</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="lastname" placeholder="请输入姓" />
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" />请记住我
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">登录</button>
+    </div>
+  </div>
+</form>]]></content><author><name></name></author><summary type="html"><![CDATA[名字 姓 请记住我 登录]]></summary></entry><entry><title type="html">Bootstrap_table3</title><link href="cris0123.github.io/2024/05/09/bootstrap_table3.html" rel="alternate" type="text/html" title="Bootstrap_table3" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/bootstrap_table3</id><content type="html" xml:base="cris0123.github.io/2024/05/09/bootstrap_table3.html"><![CDATA[<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="twitterhandle" />
+        </div>
+        <br />
+        <div class="input-group">
+            <input type="text" class="form-control" />
+            <span class="input-group-addon">.00</span>
+        </div>
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control" />
+            <span class="input-group-addon">.00</span>
+        </div>
+    </form>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[@ .00 $ .00]]></summary></entry><entry><title type="html">Gridlearn</title><link href="cris0123.github.io/2024/05/09/gridLearn.html" rel="alternate" type="text/html" title="Gridlearn" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>cris0123.github.io/2024/05/09/gridLearn</id><content type="html" xml:base="cris0123.github.io/2024/05/09/gridLearn.html"><![CDATA[<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+            box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: 
+        inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut. 
+            </p>
+        </div>
+ 
+        <div class="clearfix visible-xs"></div>
+ 
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+        box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: 
+        inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+            enim ad minim 
+            </p>
+        </div>
+    </div>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim]]></summary></entry><entry><title type="html">Kiwifruit</title><link href="cris0123.github.io/2018/08/22/kiwifruit.html" rel="alternate" type="text/html" title="Kiwifruit" /><published>2018-08-22T00:00:00+00:00</published><updated>2018-08-22T00:00:00+00:00</updated><id>cris0123.github.io/2018/08/22/kiwifruit</id><content type="html" xml:base="cris0123.github.io/2018/08/22/kiwifruit.html"><![CDATA[<p>Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the
+edible berry of several species of woody vines in the genus Actinidia.</p>
+
+<p>The most common cultivar group of kiwifruit is oval, about the size of
+a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm
+(1.8–2.2 in) in diameter). It has a fibrous, dull greenish-brown skin
+and bright green or golden flesh with rows of tiny, black, edible
+seeds. The fruit has a soft texture, with a sweet and unique flavor.</p>]]></content><author><name>cris</name></author><summary type="html"><![CDATA[Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.]]></summary></entry></feed>
