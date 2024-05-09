@@ -2,4 +2,63 @@
 layout: default
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 背景图片和标题 -->
+  <header class="header">
+    <div class="background-image">
+      <h1 class="blog-title">Welcome to Qinghua's Blog</h1>
+      <p class="tagline">Perseverance and silence are the highest virtues</p>
+    </div>
+  </header>
+
+  <!-- 主要内容区域 -->
+  <main class="main-content">
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="./assets/img/profile4.jpg" alt="Profile Picture" class="profile-image">
+        <h2>Qinghua</h2>
+        <p>Email: sunqinghua@stu.ynu.edu.cn</p>
+        <p>Phone: 1500-873-2943</p>
+        <p>Motto: "Stay curious and keep learning."</p>
+      </div>
+    </aside>
+    <article class="content">
+      <h2>Latest Blog Posts</h2>
+      <p>Here are some of the latest posts from the blog:</p>
+      <div class="post-preview">
+        <h3>Post Title 1</h3>
+        <p>A brief summary of the first post...</p>
+      </div>
+      <div class="post-preview">
+        <h3>Post Title 2</h3>
+        <p>A brief summary of the second post...</p>
+      </div>
+      <!-- 更多文章预览 -->
+    </article>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} Qinghua's Blog. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://twitter.com/yourtwitter" target="_blank">Twitter</a>
+        <a href="https://facebook.com/yourfacebook" target="_blank">Facebook</a>
+        <a href="https://instagram.com/yourinstagram" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

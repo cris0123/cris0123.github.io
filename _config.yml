@@ -1,3 +1,9 @@
+title: The Website of Qinghua         # 网站的标题
+description: >-                       # 网站的描述
+  This is my personal website to showcase my work and share my knowledge.
+baseurl: ""                            # 如果你的网站不是放在域名的根目录下，需要填写
+url: "cris0123.github.io"    # 你的网站的URL
+
 collections:
   authors:
     output: true
